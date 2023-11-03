@@ -18,6 +18,40 @@
 }
 
 
+
+.newsletter-section {
+    @apply w-full flex bg-black;
+}
+
+.newsletter-container {
+    @apply flex gap-5 items-center justify-center whitespace-nowrap;
+    animation: scroll-left 15s linear infinite;
+    animation-delay: 2s;
+}
+
+.newsletter-item {
+    @apply flex w-fit h-8 text-white;
+}
+
+.newsletter-item span {
+    @apply flex items-center justify-center;
+}
+
+.newsletter-item span img {
+    @apply mr-5;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 3));
+    }
+}
+
+
 .swiper-wrapper {
     -webkit-transition-timing-function: linear !important;
     -o-transition-timing-function: linear !important;
