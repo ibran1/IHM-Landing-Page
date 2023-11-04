@@ -76,6 +76,8 @@ module.exports = {
       fontFamily: {
       },
       backgroundImage: {
+        'hero-banner-ihtm': "url('assets/banner-img/ihtm.webp')",
+        'hero-banner-hs': "url('assets/banner-img/hs.webp')",
         'hero-banner': "url('assets/banner-img/hero-banner-ihm.webp')",
         'hero-banner-ca': "url('assets/banner-img/hero-banner-ca.webp')",
         'hero-banner-ica': "url('assets/banner-img/hero-banner-ica.webp')",

@@ -726,6 +726,10 @@ video {
   margin: 1.25rem;
 }
 
+.m-1 {
+  margin: 0.25rem;
+}
+
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
@@ -1521,8 +1525,16 @@ video {
   background-image: url('assets/banner-img/hero-banner-ca.webp');
 }
 
+.bg-hero-banner-hs {
+  background-image: url('assets/banner-img/hs.webp');
+}
+
 .bg-hero-banner-ica {
   background-image: url('assets/banner-img/hero-banner-ica.webp');
+}
+
+.bg-hero-banner-ihtm {
+  background-image: url('assets/banner-img/ihtm.webp');
 }
 
 .bg-hero-banner-pc {
@@ -2483,6 +2495,10 @@ video {
   .lg\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-3 {
