@@ -76,14 +76,14 @@ module.exports = {
       fontFamily: {
       },
       backgroundImage: {
+        'hero-banner-ihtm': "url('assets/banner-img/ihtm.webp')",
+        'hero-banner-hs': "url('assets/banner-img/hs.webp')",
         'hero-banner': "url('assets/banner-img/hero-banner-ihm.webp')",
-        'hero-banner1': "url('assets/banner-img/hero-banner1.webp')",
-        'hero-banner2': "url('assets/banner-img/hero-banner2.webp')",
-        'hero-banner3': "url('assets/banner-img/hero-banner3.webp')",
-        'hero-banner4': "url('assets/banner-img/hero-banner4.webp')",
-        'hero-banner5': "url('assets/banner-img/hero-banner5.webp')",
-        'hero-visual-comm': "url('assets/banner-img/banner-visual-comm2.png')",
+        'hero-banner-ca': "url('assets/banner-img/hero-banner-ca.webp')",
+        'hero-banner-ica': "url('assets/banner-img/hero-banner-ica.webp')",
+        'hero-banner-pc': "url('assets/banner-img/hero-banner-pc.webp')",
         'card': 'linear-gradient(to right, transparent 20%, #A91D54 20%)'
+
       },
       backgroundColor:{
         'modal-dark-fade':'rgba(0, 0, 0, 0.4)',
