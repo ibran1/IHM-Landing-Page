@@ -26,6 +26,16 @@ function closeModal() {
   modal.style.display = 'none';
 }
 
+// open modal code
+function openModal1() {
+  const modal = document.getElementById('modal');
+  modal.style.display = 'flex';
+}
+function closeModal1() {
+  const modal = document.getElementById('modal');
+  modal.style.display = 'none';
+}
+
 
 
 //  Video popup  code
